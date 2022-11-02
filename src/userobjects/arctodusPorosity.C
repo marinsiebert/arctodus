@@ -1,5 +1,4 @@
 #include "arctodusPorosity.h"
-#include "MooseError.h"
 
 InputParameters
 arctodusPorosity::validParams()

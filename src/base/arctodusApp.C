@@ -25,7 +25,6 @@ arctodusApp::registerAll(Factory & f, ActionFactory & af, Syntax & syntax)
   ModulesApp::registerAll(f, af, syntax);
   Registry::registerObjectsTo(f, {"arctodusApp"});
   Registry::registerActionsTo(af, {"arctodusApp"});
-
   /* register custom execute flags, action syntax, etc. here */
 }
 
